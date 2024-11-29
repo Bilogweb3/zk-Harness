@@ -17,8 +17,7 @@ that take as an input the standardized configuration parameters to execute the
 corresponding benchmarks. The output of benchmarking a given ZKP framework 
 is a log file in csv format with standardized metrics. 
 The log file is read by the “Log Analyzer”, 
-which compiles the logs into pandas dataframes that are used by the front-
-end and displayed on the public website. You can find the standardized logging 
+which compiles the logs into pandas dataframes that are used by the front-end and displayed on the public website. You can find the standardized logging 
 format in the following.
 
 ### Config.json
@@ -120,7 +119,7 @@ The following information is recorded for each elliptic curve group operation be
 * framework: the name of the framework (e.g., gnark)
 * category: the category of the benchmark (i.e., ec)
 * curve: the benchmarked curve
-* operation: the operation performed -- `g1-scalar-multiplicationg`, `g2-scalar-multiplication`, `g1-multi-scalar-multiplication`, `g2-multi-scalar-multiplication`, `pairing`
+* operation: the operation performed -- `g1-scalar-multiplication`, `g2-scalar-multiplication`, `g1-multi-scalar-multiplication`, `g2-multi-scalar-multiplication`, `pairing`
 * input: Provided input
 * time: elapsed time in **nanoseconds**
 * count: number of times that we run the benchmark
