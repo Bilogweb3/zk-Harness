@@ -4,7 +4,7 @@ To add a new circuit please follow the next steps.
 
 ## Adding a new circuit
 
-1. Add the circuit source code: You should should add sour source code file(s) in a new directory named `circuits/<category>/<circuit_name>.go`.
+1. Add the circuit source code: You should add sour source code file(s) in a new directory named `circuits/<category>/<circuit_name>.go`.
 If you need to use any external libraries please include them in your project directory.
 
 2. Adding a test compliant with the gnark testing suite: Each new circuit should be tested with a test compliant with the gnark testing suite.
